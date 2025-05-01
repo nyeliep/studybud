@@ -16,11 +16,7 @@ StudyBud is a platform design to make **academic life less lonely and a lot more
 - **Frontend:** Next.js  
 - **Backend:** Django  
 - **Database:** PostgreSQL  
-- **Languages:** Python & Javascrispt  
-- **Deployment:**  Heroku for backend & Vercel for frontend
-  - **Frontend:** [StudyBud on Vercel]()  
-  - **Backend:** [StudyBud API on Heroku](https://studybud-b6d2e1c031ed.herokuapp.com/api/) 
-  - **Github Repo**    
+- **Languages:** Python & Javascrispt    
 
 ## Challenges I Ran Into  
 - **Heroku Deployment Headaches** – PostgreSQL migrations gave me a hard time, but I pushed through and got it working. 
