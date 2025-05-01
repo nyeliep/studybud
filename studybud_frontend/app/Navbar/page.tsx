@@ -37,7 +37,7 @@ const Navbar = () => {
 
           <Link href="/Login">
             <button className="ml-4 bg-yellow-500 text-[#2E1A47] px-6 py-3 rounded-full text-lg font-semibold hover:bg-yellow-600 transition duration-100">
-              Find a StudyBuddy
+              Find a Study Buddy
             </button>
           </Link>
         </div>
