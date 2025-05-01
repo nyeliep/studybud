@@ -30,7 +30,7 @@ This experience taught me that we’re all way more capable than we think especi
 
 ## What's Next for StudyBud  
 If given more time, I hope to continue working on StudyBud and implement:  
-- **Bring this idea to life** - I believe StudyBud has the potential to be an essential **student tool** at Queen’s University.
+- **Bring this idea to life** - I believe StudyBud has the potential to be an essential **student tool** at USIU-Africa University.
 - **Full Authentication System** – Ensuring only **USIU-Africa students** can access the StudyBuddy feature.  
 - **Real-time Chat Feature** – Allowing students to message their study partners directly instead of using email.  
 
