@@ -1,38 +1,95 @@
-# StudyBud – Project Journey
+# StudyBud
 
-## Where It All Began
-Starting university was a major shift for me. Back in CodeHive, it was easy to find someone to study with—friends were always just a text or table away. But stepping into a new academic environment meant I had to figure everything out on my own. Meeting people, understanding course material, and navigating campus life felt overwhelming. I realized I wasn’t the only one feeling this way, almost every first-year student faces the same struggle.
+StudyBud is a student-focused academic platform designed to make university life more organized and collaborative. The platform helps students connect with potential study partners based on their courses and availability while providing a centralized hub for accessing useful campus resources and services.
 
-This semester, took a turning point when i started engaging with campus services provided at the Student Center. It made me think: Why isn’t this kind of support easier to find?
+## Table of Contents
 
-## What StudyBud is
-StudyBud is a platform design to make **academic life less lonely and a lot more organised**. It tackles two big challenges I personally experienced:
- 
-1. **Connecting Study partners** – Students can match based on course and availability, making it easier to form study groups or find someone to prep for exams with. 
-2. **Accessing Campus Resources** – All the helpful university services and tools are compiled in one easy-to-navigate, searchable hub.
+* [Overview](#overview)
+* [Features](#features)
+* [Tech Stack](#tech-stack)
+* [Getting Started](#getting-started)
 
-## How I Built It  
-### Tech Stack  
-- **Frontend:** Next.js  
-- **Backend:** Django  
-- **Database:** PostgreSQL  
-- **Languages:** Python & Javascrispt    
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Future Improvements](#future-improvements)
 
-## Challenges I Ran Into  
-- **Heroku Deployment Headaches** – PostgreSQL migrations gave me a hard time, but I pushed through and got it working. 
-- **Solo in a 24-Hour Sprint** – Being the only person on the team meant doing everything myself. It was tough, but I kept my focus and made it to the finish line.  
+## Overview
 
-## Accomplishments That I'm Proud Of  
-- **Building a Functional MVP in 24 Hours** – From ideation to deployment, I successfully created a working platform.  
+StudyBud addresses two key challenges faced by university students: finding suitable study partners and accessing important campus resources.
 
-## What I Learned  
-This experience taught me that we’re all way more capable than we think especially when the clock is ticking. Pushing myself like this brought out a different level of creativity and grit.
+The platform allows students to discover and connect with other students who share similar courses and study schedules, making it easier to form study groups and prepare for exams together. It also provides a centralized, searchable hub where students can find university services, academic resources, and other useful campus information.
 
-## What's Next for StudyBud  
-If given more time, I hope to continue working on StudyBud and implement:  
-- **Bring this idea to life** - I believe StudyBud has the potential to be an essential **student tool** at USIU-Africa University.
-- **Full Authentication System** – Ensuring only **USIU-Africa students** can access the StudyBuddy feature.  
-- **Real-time Chat Feature** – Allowing students to message their study partners directly instead of using email.  
+StudyBud was developed as a functional MVP during a 24-hour development sprint, covering the process from ideation and development to deployment.
 
+## Features
+
+* Study partner matching based on courses and availability.
+* Centralized hub for campus resources and university services.
+* Searchable academic and campus resources.
+* User-focused interface for navigating study-related services.
+* Backend API for managing application data.
+* PostgreSQL database for persistent data storage.
+* Deployed MVP for testing and demonstration.
+
+## Tech Stack
+
+* **Frontend:** Next.js
+* **Backend:** Django
+* **Database:** PostgreSQL
+* **Languages:** Python, JavaScript
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+* Node.js and NPM for running the frontend.
+* Python for running the Django backend.
+* PostgreSQL for the application database.
+
+### Installation
+
+Clone the repository:
+
+```sh
+git clone <repository-url>
+```
+
+Navigate to the project directory:
+
+```sh
+cd StudyBud
+```
+
+Install the frontend dependencies:
+
+```sh
+npm install
+```
+
+Install the backend dependencies:
+
+```sh
+pip install -r requirements.txt
+```
+
+Run the database migrations:
+
+```sh
+python manage.py migrate
+```
+
+Start the Django development server:
+
+```sh
+python manage.py runserver
+```
+
+Start the frontend application:
+
+```sh
+npm run dev
+```
 
 
